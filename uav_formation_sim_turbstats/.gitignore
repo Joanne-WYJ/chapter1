@@ -1,0 +1,15 @@
+# 默认忽略所有文件
+*
+
+# 保留 gitignore 自身
+!.gitignore
+
+# 保留根目录 main.py
+!main.py
+
+# 保留 uav_formation_sim 目录结构
+!uav_formation_sim/
+!uav_formation_sim/**/
+
+# 仅保留 uav_formation_sim 目录下的 Python 文件
+!uav_formation_sim/**/*.py
